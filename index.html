@@ -8,7 +8,7 @@ use-site-title: true
 <div class="posts-list">	
   {% for post in paginator.posts %}
 	<article class="post-preview">
-     <p class="post-meta">
+		
 		{% assign m = page.date | date: "%-m" %}
 {{ page.date | date: "%-d" }}
 {% case m %}
@@ -25,9 +25,9 @@ use-site-title: true
   {% when '11' %}Kasım
   {% when '12' %}Aralık
 {% endcase %}
-{{ page.date | date: "%B %-d, %Y" }}
 		
-		
+     <p class="post-meta">		
+{{ page.date | date: "%B %-d, %Y" }}		
     </p>
 		
     <a href="{{ post.url | prepend: site.baseurl }}">
