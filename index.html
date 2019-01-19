@@ -10,7 +10,7 @@ use-site-title: true
   {% for post in paginator.posts %}
   <article class="post-preview">
      <p class="post-meta">
-      Yazdıklarım :)  {{ post.date | date: "%B %-d, %Y" }}
+      {{ post.date | date: "%B %-d, %Y" }}
     </p>
    
     <a href="{{ post.url | prepend: site.baseurl }}">
