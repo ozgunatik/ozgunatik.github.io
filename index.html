@@ -27,7 +27,8 @@ use-site-title: true
 {% endcase %}
 		
      <p class="post-meta">		
-{{ page.date | date: "%Y" }}	
+{{ post.date | date: "%Y" }}	
+	     {{ post.date | date: "%B %-d, %Y" }}
     </p>
 		
     <a href="{{ post.url | prepend: site.baseurl }}">
