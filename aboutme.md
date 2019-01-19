@@ -1,16 +1,20 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Hakkımda
+subtitle: Beni Tanımak İster Misin?
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Merhaba ben Özgün,
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+1997 yılında Bandırma'da doğdum.İlk, orta ve lise öğrenimi tamamladıktan sonra İzmir Dokuz Eylül Üniversitesinde Bilgisayar Programcılığı Programında Önlisans öğrenimine başladım. Dokuz Eylül Üniversitesi'nden mezun olduktan sonra tekrar memleketim Bandırma'ya dönerek yazılım ile ilgili alanlarda iş aradım. Şuan özel bir yazılım şirketinde yazılım gelişitirici olarak çalışıyorum. Aynı zamanda Anadolu Üniversitesi Açık Öğretim Fakültesi - Yönetim Bilişim Sistemleri Programında Lisans öğrenimine devam ediyorum. Kendime birşeyler katmayı severim bu yüzden sürekli birşeyler ile ilgilenip acaba bugün ne öğrenebilirim diye sürekli yazılım, teknoloji gibi alanlarda araştırmalar yapıp, makaleler okurum.
 
-What else do you need?
+## Yetenekler
+ - C#
+ - PHP
+ - MSSQL
+ - HTML
+ - CSS
+ - ANDROID STUDIO - BAŞLANGIÇ
 
-### my history
+Eğer buralara kadar inip beni tanıma fırsatı bulduysan bende seninle tanışmak isterim. Hemen benimle iletişime geçebilirsin.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
