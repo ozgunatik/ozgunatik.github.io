@@ -25,10 +25,9 @@ use-site-title: true
   {% when '11' %}Kasım
   {% when '12' %}Aralık
 {% endcase %}
-{{ page.date | date: "%Y" }}
+{{ page.date | date: "%B %-d, %Y" }}
 		
-		{{ post.date | date: "%B %-d, %Y" }}
-  {{ post.date | date: "%B %-d, %Y" }}
+		
     </p>
 		
     <a href="{{ post.url | prepend: site.baseurl }}">
