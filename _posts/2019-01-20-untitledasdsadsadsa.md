@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Modemde Port Açılmama Sorunu
 bigimg: /img/modem-port.png
 ---
