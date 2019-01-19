@@ -13,18 +13,18 @@ use-site-title: true
 {% assign m = page.date | date: "%B" %}
 {{ page.date | date: "%-d" }}
 {% case B %}
-  {% when '1' %}Ocak
-  {% when '2' %}Şubar
-  {% when '3' %}Mart
-  {% when '4' %}Nisan
-  {% when '5' %}Mayıs
-  {% when '6' %}Haziran
-  {% when '7' %}Temmuz
-  {% when '8' %}Ağustos
-  {% when '9' %}Eylül
-  {% when '10' %}Ekim
-  {% when '11' %}Kasım
-  {% when '12' %}Aralık
+  {% when 'January' %}Ocak
+  {% when 'February' %}Şubar
+  {% when 'March' %}Mart
+  {% when 'April' %}Nisan
+  {% when 'May' %}Mayıs
+  {% when 'June' %}Haziran
+  {% when 'July' %}Temmuz
+  {% when 'August' %}Ağustos
+  {% when 'September' %}Eylül
+  {% when 'October' %}Ekim
+  {% when 'November' %}Kasım
+  {% when 'December' %}Aralık
 {% endcase %}
 	     {{ post.date | date: "%d %B %Y" }}
     </p>
