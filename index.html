@@ -6,9 +6,7 @@ use-site-title: true
 ---
 
 <div class="posts-list">
-	<p class="post-meta">
-      Yazdıklarım :)  {{ post.date | date: "%B %-d, %Y" }}
-    </p>
+	
   {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -20,6 +18,10 @@ use-site-title: true
 	  </h3>
 	  {% endif %}
     </a>
+	  
+	  <p class="post-meta">
+      Yazdıklarım :)  {{ post.date | date: "%B %-d, %Y" }}
+    </p>
 
     
 
