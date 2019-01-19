@@ -9,7 +9,8 @@ use-site-title: true
   {% for post in paginator.posts %}
 	<article class="post-preview">
 		
-		{% assign m = page.date | date: "%-m" %}
+     <p class="post-meta">		
+{% assign m = page.date | date: "%-m" %}
 {{ page.date | date: "%-d" }}
 {% case m %}
   {% when '1' %}Ocak
@@ -25,10 +26,7 @@ use-site-title: true
   {% when '11' %}Kasım
   {% when '12' %}Aralık
 {% endcase %}
-		
-     <p class="post-meta">		
-{{ post.date | date: "%Y" }}	
-	     {{ post.date | date: "%B %-d, %Y" }}
+	     {{ post.date | date: "%Y" }}
     </p>
 		
     <a href="{{ post.url | prepend: site.baseurl }}">
