@@ -172,14 +172,14 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "minimal"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   -
     scope:
       path: "" # all files
     values:
-      layout: "page"
+      layout: "minimal"
       show-avatar: true
 
 # Use tags index page and make tags on each post clickable
