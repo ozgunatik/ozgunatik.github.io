@@ -8,7 +8,7 @@ layout: null
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 18px;
+  font-size: 14px;
   color: #404040;
   position: relative;
   background-color: {{ site.page-col }};
@@ -353,7 +353,7 @@ footer .theme-by {
 .post-preview .post-meta,
 .post-heading .post-meta {
   color: #808080;
-  font-size: 18px;
+  font-size: 14px;
   font-style: italic;
   margin: 0 0 10px;
 }
@@ -388,7 +388,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
-    font-size: 36px;
+    font-size: 20px;
   }
 }
 
