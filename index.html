@@ -10,9 +10,9 @@ use-site-title: true
 	<article class="post-preview">
 		
      <p class="post-meta">		
-{% assign m = page.date | date: "%-m" %}
+{% assign m = page.date | date: "%B" %}
 {{ page.date | date: "%-d" }}
-{% case m %}
+{% case B %}
   {% when '1' %}Ocak
   {% when '2' %}Şubar
   {% when '3' %}Mart
