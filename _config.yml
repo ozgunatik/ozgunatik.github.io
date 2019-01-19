@@ -72,19 +72,19 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "someone@example.com"
+  email: "mailto:ozgunatik97@gmail.com"
   facebook: zgnatk35
   github: ozgunatik
 #  reddit: yourname
 #  google-plus: +DeanAttali
-#  linkedin: özgün-atik-555919139
+  linkedin: özgün-atik-555919139
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
   instagram: zgnatk35
 #  youtube: user/deanat78
 #  spotify: yourname
-  telephone: +905416776960
+#  telephone: +905416776960
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
@@ -95,7 +95,7 @@ share-links-active:
   facebook: true
   google: false
   linkedin: true
-  telephone: true
+  
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
