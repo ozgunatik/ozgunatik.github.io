@@ -348,6 +348,7 @@ footer .theme-by {
 .post-preview .post-subtitle {
   margin: 0;
   font-weight: 300;
+  font-size:10px;
   margin-bottom: 10px;
 }
 .post-preview .post-meta,
@@ -485,7 +486,7 @@ footer .theme-by {
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 27px;
+  font-size: 15px;
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
