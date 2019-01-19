@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'Bugün günlerden YAZILIM ! '
-subtitle: Each post also has a subtitle
+title: 'İlk makalemi oluşturmaya çok az kaldı :)'
+subtitle: İpucu veriyorum. Sabit IP Hakkında :)
 tags:
   - test
 comments: true
