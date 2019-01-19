@@ -26,7 +26,7 @@ use-site-title: true
   {% when 'November' %}Kasım
   {% when 'December' %}Aralık
 {% endcase %}
-	     {{ post.date | date: "%d %B %Y" }}
+	     {{ post.date | date: "%B %d, %Y" }}
     </p>
 		
     <a href="{{ post.url | prepend: site.baseurl }}">
