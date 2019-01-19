@@ -7,12 +7,14 @@ use-site-title: true
 
 <div class="posts-list">	
   {% for post in paginator.posts %}
+	<article class="post-preview">
      <p class="post-meta">
       {{ post.date | date: "%B %-d, %Y" }}
     </p> 
     <a href="{{ post.url | prepend: site.baseurl }}">
 	  <h2 class="post-title">{{ post.title }}</h2>
     </a>
+	</article>
   {% endfor %}
 </div>
 
