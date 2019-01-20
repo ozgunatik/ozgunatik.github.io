@@ -114,7 +114,7 @@ gtag: "<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1199240
 </script>"
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-119924045-2"
 
 # Google Tag Manager ID
 #gtm: ""
