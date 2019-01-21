@@ -17,7 +17,7 @@ Bu indirme paketinde MSSQL Server'ımızı yerel ağ ve Windows Azure gibi servi
 
 Yukarıdaki işlemi yaptıktan sonra asıl bizim için önemli olan noktaya geliyoruz. Bizim burada PHP sürümümüzü bilmemiz gerekiyor çünkü buna göre gerekli olan paketi indirip install edeceğiz. Gelelim bu işi nasıl yapacağımza ilk olarak localhost'unuzun çalıştığı dizine girerek aşağıdaki kodu surum.php uzantılı bir sayfa açıp içine yapıştırıyoruz.
 
-	<?phpphpinfo(); ?>
+	<? phpphpinfo(); ?>
 
 Sürümüzü öğrendikten sonra bizim için gerekli olan install paketini yükledikten sonra indirdiğimiz dll'leri nasıl include edeceğimize geçebiliriz. İlk olarak yapmamız gereken dosyaları bir klasöre çıkartmak daha sonra klasör içindeki .dll uzantılı dosyaları alıp gerekli yere kopyalamak. Bunun için localhost dizinimize gidip örneğin XAMPP kullandığımızı varsayalım PHP -> EXT -> DLL'lerimizi buraya kopyalıyoruz.
 
