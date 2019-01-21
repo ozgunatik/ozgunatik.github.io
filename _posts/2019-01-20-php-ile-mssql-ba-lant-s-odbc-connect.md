@@ -25,7 +25,7 @@ Sürümüzü öğrendikten sonra bizim için gerekli olan install paketini yükl
 
 Bu işlemi yaptıktan sonra tekrar PHP klasörüne geliyoruz ve PHP.INI dosyasını açıyoruz. Ctrl+F ile 'extension' araması yaparak extension'lara hızlı bir şekilde ulaşabiliriz. Başında ';' olan satırlar geçersiz olarak geçiyor. Bizim yapacağımız iş ise indirdiğimiz .dll uzantılı kütüphanemizi buraya ekleyip başında ';' varsa kaldırmak. Örnek olması açısından aşağıdaki resmi örnek alabilirsiniz. 
 
-[Extension PHP ]({{site.baseurl}}/https://i.hizliresim.com/LlnYYJ.png)
+[![image](https://i.hizliresim.com/LlnYYJ.png)](https://hizliresim.com/LlnYYJ)
 
 Bu işlemide yaptıktan sonra artık localhost php sürümümüz odbc destekli bir sürüm haline gelmiş oldu tekrar surum.php sayfamızı çalıştırdığınızda başıklarda Odbc paketinin yüklendiğini göreceksiniz. Artık PHP ile MSSQL Server'ımız arasında bir bağlantı kurabiliriz. Bağlantımızı test etmek için tekrar connect.php uzantılı bir sayfa açıp içine aşağıdaki php kodumuzu yapıştırıyoruz.
 
