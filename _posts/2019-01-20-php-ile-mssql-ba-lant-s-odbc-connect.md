@@ -29,9 +29,11 @@ Bu işlemi yaptıktan sonra tekrar PHP klasörüne geliyoruz ve PHP.INI dosyası
 
 Bu işlemide yaptıktan sonra artık localhost php sürümümüz odbc destekli bir sürüm haline gelmiş oldu tekrar surum.php sayfamızı çalıştırdığınızda başıklarda Odbc paketinin yüklendiğini göreceksiniz. Artık PHP ile MSSQL Server'ımız arasında bir bağlantı kurabiliriz. Bağlantımızı test etmek için tekrar connect.php uzantılı bir sayfa açıp içine aşağıdaki php kodumuzu yapıştırıyoruz.
 
-__ <?php
-__ $baglanti = odbc_connect('DRIVER={SQL Server};SERVER=.\OZGUN;DATABASE=Deneme;',"Kullanıcıadi","Sifre");
-__ ?>
+> <?php
+> $baglanti = odbc_connect('DRIVER={SQL Server};SERVER=.\OZGUN;DATABASE=Deneme;',"Kullanıcıadi","Sifre");
+> ?> 
+
+
 
 Bağlantımızı da test ettikten sonra artık projelerimize başlayabiliriz. 
 
