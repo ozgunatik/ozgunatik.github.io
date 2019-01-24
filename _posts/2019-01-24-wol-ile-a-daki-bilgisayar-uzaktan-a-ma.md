@@ -1,9 +1,9 @@
 ---
 layout: post
 published: true
-title: PHP ile MSSQL Bağlantısı - ODBC Connect
+title: WOL ile Ağ Üzerinden Bilgisayarı Açmak
 ---
-Yeni flood geliyor. Başlık atıldı yazı yazılacak.
+
 Wake On Line Nedir?
 
 Wake On Line, bilgisayarın ağ üzerinden açıldığı bir BIOS ve Ethernet Kartı özelliğidir. Bu özellik size zamandan, enerjiden ve aynı zamanda mekan gözetmeksizin istediğiniz yerden kapalı olan bilgisayarınızı açmanızı sağlar. Bu özelliği kullanmak için ise gerekli olan bazı şartlar şunlardır;
