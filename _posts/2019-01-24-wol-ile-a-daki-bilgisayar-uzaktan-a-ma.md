@@ -1,5 +1,5 @@
 ---
-düzen: yayın
+düzen: post
 yayınlandı: true
 title: WOL ile Ağdaki Bilgisayarı Uzaktan Açma
 ---
