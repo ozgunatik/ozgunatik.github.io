@@ -1,7 +1,6 @@
 ---
 düzen: yayın
-yayınlandı: yanlış
-yayınlandı: gerçek
+yayınlandı: true
 title: WOL ile Ağdaki Bilgisayarı Uzaktan Açma
 ---
 Yeni flood geliyor. Başlık atıldı yazı yazılacak.
