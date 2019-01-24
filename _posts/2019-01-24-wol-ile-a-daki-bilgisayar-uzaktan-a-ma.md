@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: WOL ile Ağdaki Bilgisayarı Uzaktan Açma
 ---
 Yeni flood geliyor. Başlık atıldı yazı yazılacak.
