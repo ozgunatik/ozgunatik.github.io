@@ -1,7 +1,7 @@
 ---
-düzen: post
-yayınlandı: true
-title: WOL ile Ağdaki Bilgisayarı Uzaktan Açma
+layout: post
+published: true
+title: PHP ile MSSQL Bağlantısı - ODBC Connect
 ---
 Yeni flood geliyor. Başlık atıldı yazı yazılacak.
 Wake On Line Nedir?
