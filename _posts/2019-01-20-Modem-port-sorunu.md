@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Modemde Port Açılmama Sorunu
+title: Modemden Sanal Sunucu Oluşturma - Port Açma
 bigimg: ../img/modem.jpg
 ---
 
