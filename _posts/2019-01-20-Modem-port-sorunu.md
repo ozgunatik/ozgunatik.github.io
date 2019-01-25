@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: Modemde Port Açılmama Sorunu
+bigimg: ../img/modem.jpg
 ---
 
 
