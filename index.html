@@ -10,9 +10,9 @@ use-site-title: true
 	<article class="post-preview">
 		
      <p class="post-meta">		
-{% assign a = post.date | date: "%b" %}
+{% assign b = post.date | date: "%b" %}
 {{ page.date | date: "%d" }}
-{% case a %}
+{% case b %}
   {% when 'Jan' %}Ocak
   {% when '2' %}Şubar
   {% when '3' %}Mart
@@ -26,7 +26,7 @@ use-site-title: true
   {% when '11' %}Kasım
   {% when '12' %}Aralık
 {% endcase %}
-	     {{ post.date | date: "%d %b %Y" }}
+	     {{ post.date | date: "%d %b , %Y" }}
     </p>
 		
     <a href="{{ post.url | prepend: site.baseurl }}">
