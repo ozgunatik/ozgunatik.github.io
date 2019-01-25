@@ -81,8 +81,8 @@
 		  
 		  {% if include.type == "post" %}
 		  <span class="post-meta">Yayınlanma Tarihi : <!-- Whitespace added for readability -->
-{% assign B = post.date | date: "%B" %}
-{{ post.date | date: "%-d" }}
+{% assign B = page.date | date: "%B" %}
+{{ page.date | date: "%-d" }}
 {% case B %}
   {% when 'January' %}Ocak
   {% when 'February' %}Şubat
@@ -97,7 +97,7 @@
   {% when 'November' %}Kasım
   {% when 'December' %}Aralık
 {% endcase %}
-{{ post.date | date: "%Y" }}
+{{ page.date | date: "%Y" }}
 		</p></span>
 		  {% endif %}
         </div>
