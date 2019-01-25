@@ -55,7 +55,24 @@
 		  {% endif %}
 		  
 		  {% if include.type == "post" %}
-		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
+		  <span class="post-meta">Yayınlanma Tarihi: <!-- Whitespace added for readability -->
+{% assign B = page.date | date: "%B" %}
+{{ page.date | date: "%-d" }}
+{% case B %}
+  {% when 'January' %}Ocak
+  {% when 'February' %}Şubat
+  {% when 'March' %}Mart
+  {% when 'April' %}Nisan
+  {% when 'May' %}Mayıs
+  {% when 'June' %}Haziran
+  {% when 'July' %}Temmuz
+  {% when 'August' %}Ağustos
+  {% when 'September' %}Eylül
+  {% when 'October' %}Ekim
+  {% when 'November' %}Kasım
+  {% when 'December' %}Aralık
+{% endcase %}
+{{ page.date | date: "%Y" }}</span>
 		  {% endif %}
         </div>
       </div>
@@ -98,7 +115,7 @@
   {% when 'December' %}Aralık
 {% endcase %}
 {{ page.date | date: "%Y" }}
-		</p></span>
+		</span>
 		  {% endif %}
         </div>
       </div>
