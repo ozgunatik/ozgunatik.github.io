@@ -9,8 +9,8 @@ use-site-title: true
   {% for post in paginator.posts %}
 	<article class="post-preview">
 		
-     		
-<!-- Whitespace added for  <p class="post-meta"> readability -->
+     		<div class="post-meta">
+<!-- Whitespace added for readability -->
 {% assign B = post.date | date: "%B" %}
 {{ post.date | date: "%-d" }}
 {% case B %}
@@ -28,7 +28,7 @@ use-site-title: true
   {% when 'December' %}Aralık
 {% endcase %}
 {{ post.date | date: "%Y" }}
-    
+		</div>
 		
     <a href="{{ post.url | prepend: site.baseurl }}">
 	  <h2 class="post-title">{{ post.title }}</h2>
