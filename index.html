@@ -11,8 +11,8 @@ use-site-title: true
 		
      <p class="post-meta">		
 <!-- Whitespace added for readability -->
-{% assign m = page.date | date: "%B" %}
-{{ page.date | date: "%-d" }}
+{% assign m = post.date | date: "%B" %}
+{{ post.date | date: "%-d" }}
 {% case m %}
   {% when 'Jan' %}Ocak
   {% when '2' %}Februar
@@ -27,7 +27,7 @@ use-site-title: true
   {% when '11' %}November
   {% when '12' %}Dezember
 {% endcase %}
-{{ page.date | date: "%Y" }}
+{{ post.date | date: "%Y" }}
     </p>
 		
     <a href="{{ post.url | prepend: site.baseurl }}">
