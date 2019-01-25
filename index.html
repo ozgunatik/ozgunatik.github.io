@@ -11,9 +11,9 @@ use-site-title: true
 		
      <p class="post-meta">		
 <!-- Whitespace added for readability -->
-{% assign m = post.date | date: "%B" %}
+{% assign B = post.date | date: "%B" %}
 {{ post.date | date: "%-d" }}
-{% case m %}
+{% case B %}
   {% when 'Jan' %}Ocak
   {% when '2' %}Februar
   {% when '3' %}M&auml;rz
