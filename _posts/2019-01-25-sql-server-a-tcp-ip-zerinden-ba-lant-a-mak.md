@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: SQL Server'a TCP/IP Üzerinden Bağlantı Açmak
-bigimg: ../img/sql.jpg
+bigimg: ../img/sql.png
 ---
 Başlık Oluşturuldu.
 
