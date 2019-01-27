@@ -44,9 +44,19 @@ Bu portu açtıktan sonra MSSQL ile yazılmış bir websiteniz varsa bile kendi 
 
 ![port9.png]({{site.baseurl}}/img/port9.png)
 
-
+* İşlem tamam ! Artık IP adresimizi veya bilgisayar ismimizi yazarak sonuna açtığımız portu ekleyerek Microsot SQL Server'a ulabişiriz.
 
 ![port10.png]({{site.baseurl}}/img/port10.png)
+
+**Örneğin**__
+192.168.1.10,5650 (Yerel Ağ)
+79.123.456.78,5650 (Sabit IP ile Geniş Ağ)
+
+> Burada dikkat etmeniz gereken nokta eğer portunuzu geniş ağa açıyorsanız Microsoft SQL Server'ınıza heryerden erişim var demektir. Bu yüzden diğer projelerinizin güvende olduğundan emin olmanız gerekiyor. 
+
+
+Kafanıza takılan herhangi bir soru varsa bana aşağıdaki sosyal medya alanlarından ulaşabilirsiniz :) 
+
 
 
 
